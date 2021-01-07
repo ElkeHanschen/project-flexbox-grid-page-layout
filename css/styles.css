@@ -107,6 +107,11 @@ img {
   border-radius: 10px;
 }
 
+.history-text,
+.menu-text {
+  margin-top: 1em;
+}
+
 /* home page */
 .home-article-wrapper {
   margin: 18px 0 0 0;
@@ -138,6 +143,11 @@ img {
   text-decoration: none;
 }
 
+/* menu page */
+.headline-second.menu {
+  margin-top: 18px;
+}
+
 /* pie gallery */
 .gallery-wrapper {
   list-style-type: none;
@@ -159,10 +169,6 @@ img {
 
 .history-article.first {
   margin-top: 2em;
-}
-
-.history-text {
-  margin-top: 1em;
 }
 
 .history-section-wrapper {
