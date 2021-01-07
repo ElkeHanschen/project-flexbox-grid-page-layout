@@ -25,10 +25,51 @@
 
 ### Screenshots of tutorial results - to (vagely) stick to styling
 
-- TODO
+- I adapted/styled differently what I did not like
+- click following links
+
+[Tutorial Home Page](#tutorial-home-page)
+
+[Tutorial Pie Gallery](#tutorial-pie-gallery)
+
+[Tutorial History Page](#tutorial-history-page)
 
 ### How to run this?
 
 - clone this repo
 - `cd` into project
 - open `index.html` in your browser of choice (in my case, built in/for Chrome)
+
+#### Tutorial Home Page
+
+![375](screenshots/home_01_375.png)
+![375](screenshots/home_02_375.png)
+![375](screenshots/home_03_375.png)
+
+![768](screenshots/home_04_768.png)
+![768](screenshots/home_05_768.png)
+
+![850](screenshots/home_06_850.png)
+![850](screenshots/home_07_850.png)
+
+#### Tutorial Pie Gallery
+
+![375](screenshots/pie_01_375.png)
+![375](screenshots/pie_02_375.png)
+
+![768](screenshots/pie_03_768.png)
+![768](screenshots/pie_04_768.png)
+
+![850](screenshots/pie_05_850.png)
+![850](screenshots/pie_06_850.png)
+
+#### Tutorial History Page
+
+![375](screenshots/history_01_375.png)
+![375](screenshots/history_02_375.png)
+
+![768](screenshots/history_03_768.png)
+![768](screenshots/history_04_768.png)
+
+![850](screenshots/history_05_850.png)
+![850](screenshots/history_06_850.png)
