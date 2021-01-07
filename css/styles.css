@@ -15,6 +15,7 @@ body {
 
 .outer-wrapper {
   margin: 0 auto;
+  padding: 1.5em 1.5em 3em 1.5em;
 }
 .header-wrapper {
   text-align: center;
@@ -23,8 +24,8 @@ body {
   border-bottom: 3px solid #cc8850;
 }
 .scallop-banner {
-  height: 12px;
   background: url(../img/scallop.png) repeat-x;
+  height: 12px;
 }
 
 .nav-item {
@@ -51,25 +52,34 @@ body {
   width: 100%;
 }
 
-.gallery-wrapper {
+.gallery-wrapper,
+.home-wrapper {
   background-color: #fff6e0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 2em;
   width: 100%;
 }
-.gallery-container {
-  list-style-type: none;
-  text-align: center;
-  width: 100%;
-}
-.main-hl-gallery {
+.main-hl-gallery,
+.main-hl-home,
+.article-hl.testimonial,
+.article-hl.mothersday,
+.article-hl.menu,
+.article-hl.donations {
   border-bottom: 2px dotted #c80060;
   color: #c80060;
   font-family: 'Niconne', cursive;
-  font-size: 3em;
   font-weight: 400;
-  margin: 0;
+  width: 100%;
+}
+
+.main-hl-gallery,
+.main-hl-home {
+  font-size: 3em;
+}
+.gallery-container {
+  list-style-type: none;
+  text-align: center;
   width: 100%;
 }
 .gallery-item {
@@ -77,6 +87,43 @@ body {
 }
 .gallery-img {
   border-radius: 10px;
+}
+
+.article-item {
+  text-align: center;
+}
+.article-hl {
+  font-size: 2em;
+  margin: 18px 0 0 0;
+}
+.article-text {
+  margin-top: 0.5em;
+}
+.article-text.main {
+  margin-top: 2em;
+}
+blockquote cite {
+  display: block;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+.mothersday-img,
+.menu-img {
+  border-radius: 10px;
+  margin-top: 0.5em;
+}
+
+/* button */
+.article-btn {
+  background-color: #c80060;
+  border: 2px solid #c80060;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin: 1em 0;
+  padding: 0.3em 1em;
+  text-decoration: none;
 }
 
 /* footer */
@@ -130,6 +177,19 @@ body {
     height: 100%;
     width: 100%;
   }
+  .mothersday-img,
+  .menu-img {
+    width: 100%;
+  }
+  .article-wrapper {
+    display: grid;
+    gap: 0.75em 4%;
+    grid-template-columns: repeat(auto-fill, 22%);
+    grid-template-rows: auto;
+  }
+  .article-item {
+    text-align: left;
+  }
 }
 
 @media (min-width: 880px) {
@@ -144,5 +204,9 @@ body {
   .gallery-container {
     gap: 0.75em 4%;
     grid-template-columns: repeat(auto-fill, 22%);
+  }
+  .banner-img {
+    background: url(../img/home/header-1200.jpg) no-repeat;
+    height: 183px;
   }
 }
