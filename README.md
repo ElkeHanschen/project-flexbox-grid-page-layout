@@ -13,6 +13,7 @@
 
 - take already coded exercise ["Pie Flexbox"](https://github.com/ElkeHanschen/project-flexbox-page-layout) and follow tasks below
 - tasks:
+  - keep HTML (if possible)
   - figure out when to keep flexbox and when to try CSS Grid
   - change Gallery page, Home page and History page accordingly
   - optional: add also the [remaining pages, for this find content here](https://github.com/jen4web/fem-layout/tree/master/day-2-grid/18-practice)
@@ -30,9 +31,15 @@
 
 [Tutorial Home Page](#tutorial-home-page)
 
+[Tutorial Menu Page](#tutorial-menu-page)
+
+[Tutorial Catering Page](#tutorial-catering-page)
+
 [Tutorial Pie Gallery](#tutorial-pie-gallery)
 
 [Tutorial History Page](#tutorial-history-page)
+
+[Tutorial Contact Page](#tutorial-contact-page)
 
 ### How to run this?
 
@@ -51,6 +58,20 @@
 
 ![850](screenshots/home_06_850.png)
 ![850](screenshots/home_07_850.png)
+
+#### Tutorial Menu Page
+
+![375](screenshots/menu_01_375.png)
+![375](screenshots/menu_02_375.png)
+![375](screenshots/menu_03_375.png)
+
+![768](screenshots/menu_04_768.png)
+![768](screenshots/menu_05_768.png)
+![768](screenshots/menu_06_768.png)
+
+![850](screenshots/menu_07_850.png)
+![850](screenshots/menu_08_850.png)
+![850](screenshots/menu_09_850.png)
 
 #### Tutorial Pie Gallery
 
