@@ -114,13 +114,15 @@ img {
 }
 
 .history-text,
-.menu-text {
+.menu-text,
+.catering-text {
   margin-top: 1em;
 }
 
 .img-special-pie,
 .img-home-menu-pie,
-.img-menu-pie {
+.img-menu-pie,
+.img-catering-whole-pie {
   margin-top: 0.5em;
   width: 100%;
 }
@@ -165,6 +167,12 @@ img {
 
 .menu-text {
   margin-top: 0.5em;
+}
+
+/* catering page */
+.catering-list {
+  margin-left: 20px;
+  padding-left: 0;
 }
 
 /* pie gallery */
