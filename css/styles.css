@@ -115,7 +115,8 @@ img {
 
 .history-text,
 .menu-text,
-.catering-text {
+.catering-text,
+.contact-text {
   margin-top: 1em;
 }
 
@@ -217,6 +218,69 @@ blockquote cite {
   display: block;
   margin-top: 1em;
   text-transform: uppercase;
+}
+
+/* contact page */
+.contact-form {
+  margin-top: 1em;
+}
+.contact-info,
+.contact-pie {
+  border: none;
+  max-width: 100%;
+  min-width: 100%;
+  overflow: auto;
+  width: 100%;
+}
+.contact-pie {
+  margin-top: 2em;
+}
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  overflow: auto;
+  padding: 5px;
+  width: 100%;
+}
+legend {
+  color: #c80060;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+label {
+  display: block;
+}
+.labeltext {
+  margin-top: 1em;
+}
+p.labeltext {
+  margin: 1em 0;
+}
+.contact-info label {
+  font-weight: 700;
+  margin-top: 1em;
+}
+#name,
+#phone,
+#email,
+#date,
+#qty,
+#filling {
+  height: 40px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+/* contact submit button */
+.contact-btn {
+  background-color: #c80060;
+  border-radius: 30px;
+  color: #fff;
+  font-family: 'Niconne', cursive;
+  font-size: 1.5em;
+  margin-top: 0.55em;
+  padding: 0.2em 1.5em;
+  text-decoration: none;
 }
 
 /* footer */

@@ -31,17 +31,17 @@
 - I adapted/styled differently what I did not like
 - click following links
 
-[Tutorial Home Page](#tutorial-home-page)
+[Tutorial Home Page](#tutorial-home-page-layout)
 
-[Tutorial Menu Page](#tutorial-menu-page)
+[Tutorial Menu Page](#tutorial-menu-page-layout)
 
-[Tutorial Catering Page](#tutorial-catering-page)
+[Tutorial Catering Page](#tutorial-catering-page-layout)
 
-[Tutorial Pie Gallery](#tutorial-pie-gallery)
+[Tutorial Pie Gallery](#tutorial-pie-gallery-layout)
 
-[Tutorial History Page](#tutorial-history-page)
+[Tutorial History Page](#tutorial-history-page-layout)
 
-[Tutorial Contact Page](#tutorial-contact-page)
+[Tutorial Contact Page](#tutorial-contact-page-layout)
 
 ### How to run this?
 
@@ -49,7 +49,7 @@
 - `cd` into project
 - open `index.html` in your browser of choice (in my case, built in/for Chrome)
 
-#### Tutorial Home Page
+#### Tutorial Home Page Layout
 
 ![375](screenshots/home_01_375.png)
 ![375](screenshots/home_02_375.png)
@@ -59,7 +59,7 @@
 ![850](screenshots/home_06_850.png)
 ![850](screenshots/home_07_850.png)
 
-#### Tutorial Menu Page
+#### Tutorial Menu Page Layout
 
 ![375](screenshots/menu_01_375.png)
 ![375](screenshots/menu_02_375.png)
@@ -71,7 +71,7 @@
 ![850](screenshots/menu_08_850.png)
 ![850](screenshots/menu_09_850.png)
 
-#### Tutorial Catering Page
+#### Tutorial Catering Page Layout
 
 ![375](screenshots/cat_01_375.png)
 ![375](screenshots/cat_02_375.png)
@@ -81,7 +81,7 @@
 ![850](screenshots/cat_06_850.png)
 ![850](screenshots/cat_07_850.png)
 
-#### Tutorial Pie Gallery
+#### Tutorial Pie Gallery Layout
 
 ![375](screenshots/pie_01_375.png)
 ![375](screenshots/pie_02_375.png)
@@ -90,7 +90,7 @@
 ![850](screenshots/pie_05_850.png)
 ![850](screenshots/pie_06_850.png)
 
-#### Tutorial History Page
+#### Tutorial History Page Layout
 
 ![375](screenshots/history_01_375.png)
 ![375](screenshots/history_02_375.png)
@@ -98,3 +98,15 @@
 ![768](screenshots/history_04_768.png)
 ![850](screenshots/history_05_850.png)
 ![850](screenshots/history_06_850.png)
+
+#### Tutorial Contact Page Layout
+
+![375](screenshots/cont_01_375.png)
+![375](screenshots/cont_02_375.png)
+![375](screenshots/cont_03_375.png)
+![375](screenshots/cont_04_375.png)
+(no restrictions within textarea)
+![768](screenshots/cont_05_768.png)
+![768](screenshots/cont_06_768.png)
+![850](screenshots/cont_07_850.png)
+![850](screenshots/cont_08_850.png)
