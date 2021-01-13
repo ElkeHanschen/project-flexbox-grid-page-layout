@@ -12,7 +12,7 @@ html {
 
 body {
   background-image: url(../img/clouds.png);
-  font-family: 'Cabin', Arial, Geneva, sans-serif;
+  font-family: 'Cabin', Arial, Geneva, sans-serif; /* Why adding quotes to Cabin? Since it's only one word no quotes are required. */
 }
 
 .outer-container {
@@ -45,7 +45,7 @@ img {
 }
 
 .nav-item a {
-  color: #c80060;
+  color: #c80060; /* You could think about using custom properties (variables) for colors */
   text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ img {
 
 .headline-second.testimonial,
 .headline-second.pie {
-  color: #fff;
+  color: #fff; /* alphabetical order 😉 */
   border-bottom: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -154,7 +154,7 @@ img {
   border-radius: 30px;
   color: #fff;
   display: inline-block;
-  font-weight: bold;
+  font-weight: bold; /* Looks like you mix usage of numbers and strings (700 and bold). I recommend to keep one format. */
   margin: 1em 0;
   padding: 0.3em 1em;
   text-decoration: none;
@@ -223,12 +223,12 @@ blockquote cite {
 /* contact page */
 .contact-form {
   margin-top: 1em;
-}
+} /* Why leaving on emtpy line between rules in this section? 🤔 */
 .contact-info,
 .contact-pie {
   border: none;
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 100%; /* This doesn't make sense, since width is already 100% */
+  min-width: 100%; /* This doesn't make sense, since width is already 100% */
   overflow: auto;
   width: 100%;
 }
@@ -236,8 +236,8 @@ blockquote cite {
   margin-top: 2em;
 }
 textarea {
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 100%; /* This doesn't make sense, since width is already 100% */
+  min-width: 100%; /* This doesn't make sense, since width is already 100% */
   overflow: auto;
   padding: 5px;
   width: 100%;
@@ -334,7 +334,7 @@ p.labeltext {
   .home-article-wrapper {
     display: grid;
     gap: 0.75em 8%;
-    grid-template-columns: repeat(auto-fill, 46%);
+    grid-template-columns: repeat(auto-fill, 46%); /* Please let me know what this does. Never used it, but curious about it. 🙂 */
     grid-template-rows: auto;
   }
 
@@ -447,7 +447,7 @@ p.labeltext {
   .home-article-wrapper {
     display: grid;
     gap: 0.75em 4%;
-    grid-template-columns: repeat(auto-fill, 22%);
+    grid-template-columns: repeat(auto-fill, 22%); /* Usage of variables would help here to not write the whole statement again */
     grid-template-rows: auto;
   }
 
