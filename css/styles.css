@@ -12,7 +12,7 @@ html {
 
 body {
   background-image: url(../img/clouds.png);
-  font-family: 'Cabin', Arial, Geneva, sans-serif;
+  font-family: Cabin, Arial, Geneva, sans-serif;
 }
 
 .outer-container {
@@ -80,7 +80,7 @@ img {
   border-bottom: 2px dotted #c80060;
   color: #c80060;
   font-size: 2.5em;
-  font-family: 'Niconne', cursive;
+  font-family: Niconne, cursive;
   font-weight: 400;
   width: 100%;
 }
@@ -97,10 +97,10 @@ img {
 
 .headline-second.testimonial,
 .headline-second.pie {
-  color: #fff;
-  border-bottom: none;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
   font-size: 2em;
   padding: 0.25em 0.5em 0.25em 0.5em;
 }
@@ -154,7 +154,7 @@ img {
   border-radius: 30px;
   color: #fff;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 700;
   margin: 1em 0;
   padding: 0.3em 1em;
   text-decoration: none;
@@ -224,42 +224,48 @@ blockquote cite {
 .contact-form {
   margin-top: 1em;
 }
+
 .contact-info,
 .contact-pie {
   border: none;
-  max-width: 100%;
-  min-width: 100%;
   overflow: auto;
   width: 100%;
 }
+
 .contact-pie {
   margin-top: 2em;
 }
+
 textarea {
-  max-width: 100%;
-  min-width: 100%;
   overflow: auto;
   padding: 5px;
   width: 100%;
+  resize: vertical;
 }
+
 legend {
   color: #c80060;
   font-size: 1.2em;
   font-weight: 700;
 }
+
 label {
   display: block;
 }
+
 .labeltext {
   margin-top: 1em;
 }
+
 p.labeltext {
   margin: 1em 0;
 }
+
 .contact-info label {
   font-weight: 700;
   margin-top: 1em;
 }
+
 #name,
 #phone,
 #email,
@@ -276,7 +282,7 @@ p.labeltext {
   background-color: #c80060;
   border-radius: 30px;
   color: #fff;
-  font-family: 'Niconne', cursive;
+  font-family: Niconne, cursive;
   font-size: 1.5em;
   margin-top: 0.55em;
   padding: 0.2em 1.5em;
@@ -332,9 +338,10 @@ p.labeltext {
   }
 
   .home-article-wrapper {
+      --column-width: 46%;
     display: grid;
     gap: 0.75em 8%;
-    grid-template-columns: repeat(auto-fill, 46%);
+    grid-template-columns: repeat(auto-fill, var(--column-width));
     grid-template-rows: auto;
   }
 
@@ -445,9 +452,9 @@ p.labeltext {
   }
 
   .home-article-wrapper {
+      --column-width: 22%;
     display: grid;
     gap: 0.75em 4%;
-    grid-template-columns: repeat(auto-fill, 22%);
     grid-template-rows: auto;
   }
 
