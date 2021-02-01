@@ -9,18 +9,18 @@
 
 ### What is this about?
 
-### Based on Project "Pie Flexbox" (see link below) - refactor to Flexbox and CSS Grid
+### Based on Project "Pie Page - Flexbox" (see link below) - refactor to Flexbox and CSS Grid where possible
 
-- take already coded exercise ["Pie Flexbox"](https://github.com/ElkeHanschen/project-flexbox-page-layout) and follow tasks below
+- take already coded exercise ["Pie Flexbox"](https://github.com/EllyPirelly/project-flexbox-page-layout) and follow tasks below
 - disclaimer:
   - focus of this exercise was NOT to change the already given HTML but to get a better, quicker understanding about the differences between `float`, `flexbox` and `css grid` and quickly practice them
 - tasks:
-  - keep HTML (unless it needs to be changed for the sake of positioning)
+  - keep already given HTML (unless it needs to be changed for the sake of positioning)
   - figure out when to use flexbox and when to use CSS Grid
   - change Gallery page, Home page and History page accordingly
   - optional: add also the [remaining pages, for this find content here](https://github.com/jen4web/fem-layout/tree/master/day-2-grid/18-practice)
 
-#### Breakpoints (I used different from course ones)
+#### Breakpoints (Mine differ from the tutorial ones)
 
 | Breakpoints | Tutorial    | Mine  |
 | ----------- | ----------- | ----- |
